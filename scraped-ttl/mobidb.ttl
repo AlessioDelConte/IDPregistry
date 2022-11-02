@@ -1,0 +1,649 @@
+@prefix ns1: <https://schema.org/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://purl.org/pav/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://bioschemas.org/crawl/v1/mobidb/A0A1Z3GD08/20221027/0> ns3:retrievedFrom <https://mobidb.org/A0A1Z3GD08> ;
+    ns3:retrievedOn "2022-10-27T13:08:43"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/A7VJC2/20221027/1> ns3:retrievedFrom <https://mobidb.org/A7VJC2> ;
+    ns3:retrievedOn "2022-10-27T13:08:44"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2> ns3:retrievedFrom <https://mobidb.org/O00401> ;
+    ns3:retrievedOn "2022-10-27T13:08:44"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/O43524/20221027/3> ns3:retrievedFrom <https://mobidb.org/O43524> ;
+    ns3:retrievedOn "2022-10-27T13:08:45"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P04972/20221027/4> ns3:retrievedFrom <https://mobidb.org/P04972> ;
+    ns3:retrievedOn "2022-10-27T13:08:46"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P06491/20221027/5> ns3:retrievedFrom <https://mobidb.org/P06491> ;
+    ns3:retrievedOn "2022-10-27T13:08:47"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P12296/20221027/6> ns3:retrievedFrom <https://mobidb.org/P12296> ;
+    ns3:retrievedOn "2022-10-27T13:08:49"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P12978/20221027/7> ns3:retrievedFrom <https://mobidb.org/P12978> ;
+    ns3:retrievedOn "2022-10-27T13:08:50"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P21698/20221027/8> ns3:retrievedFrom <https://mobidb.org/P21698> ;
+    ns3:retrievedOn "2022-10-27T13:08:51"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> ns3:retrievedFrom <https://mobidb.org/P36897> ;
+    ns3:retrievedOn "2022-10-27T13:08:52"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P42512/20221027/10> ns3:retrievedFrom <https://mobidb.org/P42512> ;
+    ns3:retrievedOn "2022-10-27T13:08:53"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P47110/20221027/11> ns3:retrievedFrom <https://mobidb.org/P47110> ;
+    ns3:retrievedOn "2022-10-27T13:08:54"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P52292/20221027/12> ns3:retrievedFrom <https://mobidb.org/P52292> ;
+    ns3:retrievedOn "2022-10-27T13:08:56"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/P84233/20221027/13> ns3:retrievedFrom <https://mobidb.org/P84233> ;
+    ns3:retrievedOn "2022-10-27T13:08:56"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q4R6S5/20221027/14> ns3:retrievedFrom <https://mobidb.org/Q4R6S5> ;
+    ns3:retrievedOn "2022-10-27T13:08:56"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15> ns3:retrievedFrom <https://mobidb.org/Q92585> ;
+    ns3:retrievedOn "2022-10-27T13:08:58"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q95V77/20221027/16> ns3:retrievedFrom <https://mobidb.org/Q95V77> ;
+    ns3:retrievedOn "2022-10-27T13:08:58"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q9IK91/20221027/17> ns3:retrievedFrom <https://mobidb.org/Q9IK91> ;
+    ns3:retrievedOn "2022-10-27T13:08:59"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q9SUM3/20221027/18> ns3:retrievedFrom <https://mobidb.org/Q9SUM3> ;
+    ns3:retrievedOn "2022-10-27T13:09:01"^^xsd:dateTime .
+
+<https://bioschemas.org/crawl/v1/mobidb/A0A1Z3GD08/20221027/0/mobidb.org/A0A1Z3GD08/800050022> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/A7VJC2/20221027/1/mobidb.org/A7VJC2/1414644366> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/A7VJC2/20221027/1/mobidb.org/A7VJC2/536065704> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/1639085517> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/260008313> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/29814420> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/811059051> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/O43524/20221027/3/mobidb.org/O43524/1343262227> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/O43524/20221027/3/mobidb.org/O43524/1995934213> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/O43524/20221027/3/mobidb.org/O43524/614944951> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/P04972/20221027/4/mobidb.org/P04972/492954671> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/P12978/20221027/7/mobidb.org/P12978/1225901817> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/P12978/20221027/7/mobidb.org/P12978/521100967> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/P47110/20221027/11/mobidb.org/P47110/582775551> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/P52292/20221027/12/mobidb.org/P52292/1405531173> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/P52292/20221027/12/mobidb.org/P52292/2065828560> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/P84233/20221027/13/mobidb.org/P84233/523243153> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q4R6S5/20221027/14/mobidb.org/Q4R6S5/1284145243> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/1026970398> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/253089785> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/256494549> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/328407110> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/583937262> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q95V77/20221027/16/mobidb.org/Q95V77/1564666063> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q9IK91/20221027/17/mobidb.org/Q9IK91/1389801320> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q9IK91/20221027/17/mobidb.org/Q9IK91/2064076058> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://bioschemas.org/crawl/v1/mobidb/Q9IK91/20221027/17/mobidb.org/Q9IK91/268848668> a ns1:PropertyValue ;
+    ns1:name "Term" ;
+    ns1:value <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
+
+<https://disprot.org/assets/data/IDPO_v0.2.owl> a ns1:DefinedTermSet ;
+    ns1:name "IDP ontology" .
+
+<https://mobidb.org/A0A1Z3GD08> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MAEEKHHHLFHHKEGEDFQPAADGGVDTYGYSTETVVTATGNDGEYERITKEEKHHKHKEHLGEMGAAAAGAFALYEKHEAKKDPEHAHKHKIEEEVAAAAAVGAGGFVFHEHHEKKQDHKEAKEASGEKKHHLFG" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/A0A1Z3GD08#prediction-disorder-mobidb_lite.112_136> ;
+    ns1:identifier "https://identifiers.org/mobidb:A0A1Z3GD08" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/A0A1Z3GD08> .
+
+<https://mobidb.org/A0A1Z3GD08#prediction-disorder-mobidb_lite.112_136> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/A0A1Z3GD08/20221027/0/mobidb.org/A0A1Z3GD08/800050022> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/A0A1Z3GD08#sequence-location.112_136> .
+
+<https://mobidb.org/A0A1Z3GD08#sequence-location.112_136> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "136" ;
+    ns1:rangeStart "112" .
+
+<https://mobidb.org/A7VJC2> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MEKTLETVPLERKKREKEQFRKLFIGGLSFETTEESLRNYYEQWGKLTDCVVMRDPASKRSRGFGFVTFSSMAEVDAAMAARPHSIDGRVVEPKRAVAREESGKPGAHVTVKKLFVGGIKEDTEEHHLRDYFEEYGKIDTIEIITDRQSGKKRGFGFVTFDDHDPVDKIFLQKYHTINGHNAEVRKALSRQEMQEVQSSRSGRGGNFGFGDSRGGGGNFGPGPGSNFRGGSDGYGSGRGFGDGYNGYGGGPGGGNFGGSPGYGGGRGGYGGGGPGYGNQGGGYGGGYDNYGGGNYGSGNYNDFGNYNQQPSNYGPMKSGNFGGSRNMGGPYGGGNYGPGGSGGSGGYGGRSRY" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.189_234>,
+        <https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.306_353> ;
+    ns1:identifier "https://identifiers.org/mobidb:A7VJC2" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Heterogeneous nuclear ribonucleoproteins A2/B1" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/A7VJC2> .
+
+<https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.189_234> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/A7VJC2/20221027/1/mobidb.org/A7VJC2/1414644366> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/A7VJC2#sequence-location.189_234> .
+
+<https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.306_353> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/A7VJC2/20221027/1/mobidb.org/A7VJC2/536065704> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/A7VJC2#sequence-location.306_353> .
+
+<https://mobidb.org/A7VJC2#sequence-location.189_234> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "234" ;
+    ns1:rangeStart "189" .
+
+<https://mobidb.org/A7VJC2#sequence-location.306_353> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "353" ;
+    ns1:rangeStart "306" .
+
+<https://mobidb.org/O00401> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MSSVQQQPPPPRRVTNVGSLLLTPQENESLFTFLGKKCVTMSSAVVQLYAADRNCMWSKKCSGVACLVKDNPQRSYFLRIFDIKDGKLLWEQELYNNFVYNSPRGYFHTFAGDTCQVALNFANEEEAKKFRKAVTDLLGRRQRKSEKRRDPPNGPNLPMATVDIKNPEITTNRFYGPQVNNISHTKEKKKGKAKKKRLTKADIGTPSNFQHIGHVGWDPNTGFDLNNLDPELKNLFDMCGISEAQLKDRETSKVIYDFIEKTGGVEAVKNELRRQAPPPPPPSRGGPPPPPPPPHNSGPPPPPARGRGAPPPPPSRAPTAAPPPPPPSRPSVAVPPPPPNRMYPPPPPALPSSAPSGPPPPPPSVLGVGPVAPPPPPPPPPPPGPPPPPGLPSDGDHQVPTTAGNKAALLDQIREGAQLKKVEQNSRPVSCSGRDALLDQIRQGIQLKSVADGQESTPPTPAPTSGIVGALMEVMQKRSKAIHSSDEDEDEDDEEDFEDDDEWED" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/O00401#prediction-disorder-mobidb_lite.138_163>,
+        <https://mobidb.org/O00401#prediction-disorder-mobidb_lite.184_205>,
+        <https://mobidb.org/O00401#prediction-disorder-mobidb_lite.266_406>,
+        <https://mobidb.org/O00401#prediction-disorder-mobidb_lite.476_505> ;
+    ns1:identifier "https://identifiers.org/mobidb:O00401" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Neural Wiskott-Aldrich syndrome protein" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/O00401> .
+
+<https://mobidb.org/O00401#prediction-disorder-mobidb_lite.138_163> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/260008313> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/O00401#sequence-location.138_163> .
+
+<https://mobidb.org/O00401#prediction-disorder-mobidb_lite.184_205> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/811059051> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/O00401#sequence-location.184_205> .
+
+<https://mobidb.org/O00401#prediction-disorder-mobidb_lite.266_406> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/29814420> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/O00401#sequence-location.266_406> .
+
+<https://mobidb.org/O00401#prediction-disorder-mobidb_lite.476_505> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/O00401/20221027/2/mobidb.org/O00401/1639085517> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/O00401#sequence-location.476_505> .
+
+<https://mobidb.org/O00401#sequence-location.138_163> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "163" ;
+    ns1:rangeStart "138" .
+
+<https://mobidb.org/O00401#sequence-location.184_205> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "205" ;
+    ns1:rangeStart "184" .
+
+<https://mobidb.org/O00401#sequence-location.266_406> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "406" ;
+    ns1:rangeStart "266" .
+
+<https://mobidb.org/O00401#sequence-location.476_505> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "505" ;
+    ns1:rangeStart "476" .
+
+<https://mobidb.org/O43524> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MAEAPASPAPLSPLEVELDPEFEPQSRPRSCTWPLQRPELQASPAKPSGETAADSMIPEEEDDEDDEDGGGRAGSAMAIGGGGGSGTLGSGLLLEDSARVLAPGGQDPGSGPATAAGGLSGGTQALLQPQQPLPPPQPGAAGGSGQPRKCSSRRNAWGNLSYADLITRAIESSPDKRLTLSQIYEWMVRCVPYFKDKGDSNSSAGWKNSIRHNLSLHSRFMRVQNEGTGKSSWWIINPDGGKSGKAPRRRAVSMDNSNKYTKSRGRAAKKKAALQTAPESADDSPSQLSKWPGSPTSRSSDELDAWTDFRSRTNSNASTVSGRLSPIMASTELDEVQDDDAPLSPMLYSSSASLSPSVSKPCTVELPRLTDMAGTMNLNDGLTENLMDDLLDNITLPPSQPSPTGGLMQRSSSFPYTTKGSGLGSPTSSFNSTVFGPSSLNSLRQSPMQTIQENKPATFSSMSHYGNQTLQDLLTSDSLSHSDVMMTQSDPLMSQASTAVSAQNSRRNVMLRNDPMMSFAAQPNQGSLVNQNLLHHQHQTQGALGGSRALSNSVSNMGLSESSSLGSAKHQQQSPVSQSMQTLSDSLSGSSLYSTSANLPVMGHEKFPSDLDLDMFNGSLECDMESIIRSELMDADGLDFNFDSLISTQNVVGLNVGNFTGAKQASSQSWVPG" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/O43524#prediction-disorder-mobidb_lite.1_154>,
+        <https://mobidb.org/O43524#prediction-disorder-mobidb_lite.231_302>,
+        <https://mobidb.org/O43524#prediction-disorder-mobidb_lite.536_587> ;
+    ns1:identifier "https://identifiers.org/mobidb:O43524" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Forkhead box protein O3" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/O43524> .
+
+<https://mobidb.org/O43524#prediction-disorder-mobidb_lite.1_154> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/O43524/20221027/3/mobidb.org/O43524/1995934213> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/O43524#sequence-location.1_154> .
+
+<https://mobidb.org/O43524#prediction-disorder-mobidb_lite.231_302> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/O43524/20221027/3/mobidb.org/O43524/1343262227> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/O43524#sequence-location.231_302> .
+
+<https://mobidb.org/O43524#prediction-disorder-mobidb_lite.536_587> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/O43524/20221027/3/mobidb.org/O43524/614944951> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/O43524#sequence-location.536_587> .
+
+<https://mobidb.org/O43524#sequence-location.1_154> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "154" ;
+    ns1:rangeStart "1" .
+
+<https://mobidb.org/O43524#sequence-location.231_302> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "302" ;
+    ns1:rangeStart "231" .
+
+<https://mobidb.org/O43524#sequence-location.536_587> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "587" ;
+    ns1:rangeStart "536" .
+
+<https://mobidb.org/P04972> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MNLEPPKAEIRSATRVMGGPVTPRKGPPKFKQRQTRQFKSKPPKKGVQGFGDDIPGMEGLGTDITVICPWEAFNHLELHELAQYGII" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/P04972#prediction-disorder-mobidb_lite.1_55> ;
+    ns1:identifier "https://identifiers.org/mobidb:P04972" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P04972> .
+
+<https://mobidb.org/P04972#prediction-disorder-mobidb_lite.1_55> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/P04972/20221027/4/mobidb.org/P04972/492954671> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/P04972#sequence-location.1_55> .
+
+<https://mobidb.org/P04972#sequence-location.1_55> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "55" ;
+    ns1:rangeStart "1" .
+
+<https://mobidb.org/P06491> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MAAPNRDPPGYRYAAAMVPTGSLLSTIEVASHRRLFDFFSRVRSDANSLYDVEFDALLGSYCNTLSLVRFLELGLSVACVCTKFPELAYMNEGRVQFEVHQPLIARDGPHPIEQPTHNYMTKIIDRRALNAAFSLATEAIALLTGEALDGTGIGAHRQLRAIQQLARNVQAVLGAFERGTADQMLHVLLEKAPPLALLLPMQRYLDNGRLATRVARATLVAELKRSFCETSFFLGKAGHRREAVEAWLVDLTTATQPSVAVPRLTHADTRGRPVDGVLVTTAPIKQRLLQSFLKVEDTEADVPVTYGEMVLNGANLVTALVMGKAVRSLDDVGRHLLEMQEEQLDLNRQTLDELESAPQTTRVRADLVSIGEKLVFLEALEKRIYAATNVPYPLVGAMDLTFVLPLGLFNPVMERFAAHAGDLVPAPGHPDPRAFPPRQLFFWGKDRQVLRLSLEHAIGTVCHPSLMNVDAAVGGLNRDPVEAANPYGAYVAAPAGPAADMQQLFLNAWGQRLAHGRVRWVAEGQMTPEQFMQPDNANLALELHPAFDFFVGVADVELPGGDVPPAGPGEIQATWRVVNGNLPLALCPAAFRDARGLELGVGRHAMAPATIAAVRGAFDDRNYPAVFYLLQAAIHGSEHVFCALARLVVQCITSYWNNTRCAAFVNDYSLVSYVVTYLGGDLPEECMAVYRDLVAHVEALAQLVDDFTLTGPELGGQAQAELNHLMRDPALLPPLVWDCDALMRRAALDRHRDCRVSAGGHDPVYAAACNVATADFNRNDGQLLHNTQARAADAADDRPHRGADWTVHHKIYYYVMVPAFSRGRCCTAGVRFDRVYATLQNMVVPEIAPGEECPSDPVTDPAHPLHPANLVANTVNAMFHNGRVVVDGPAMLTLQVLAHNMAERTTALLCSAAPDAGANTASTTNMRIFDGALHAGILLMAPQHLDHTIQNGDYFYPLPVHALFAGADHVANAPNFPPALRDLSRQVPLVPPALGANYFSSIRQPVVQHVRESAAGENALTYALMAGYFKISPVALHHQLKTGLHPGFGFTVVRQDRFVTENVLFSERASEAYFLGQLQVARHETGGGVNFTLTQPRANVDLGVGYTAVVATATVRNPVTDMGNLPQNFYLGRGAPPLLDNAAAVYLRNAVVAGNRLGPAQPVPVFGCAQVPRRAGMDHGQDAVCEFIATPVSTDVNYFRRPCNPRGRAAGGVYAGDKEGDVTALMYDHGQSDPSRAFAATANPWASQRFSYGDLLYNGAYHLNGASPVLSPCFKFFTSADIAAKHRCLERLIVETGSAVSTATAASDVQFKRPPGCRELVEDPCGLFQEAYPLTCASDPALLRSARNGEAHARETHFAQYLVYDASPLKGLAL" ;
+    ns1:identifier "https://identifiers.org/mobidb:P06491" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Major capsid protein" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P06491> .
+
+<https://mobidb.org/P12296> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MATTMEQEICAHSMTFEECPKCSALQYRNGFYLLKYDEEWYPEELLTDGEDDVFDPDLDMEVVFETQGNSTSSDKNNSSSEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLADQNTEEMENLSDRVSQDTAGNTVTNTQSTVGRLVGYGTVHDGEHPASCADTASEKILAVERYYTFKVNDWTSTQKPFEYIRIPLPHVLSGEDGGVFGATLRRHYLVKTGWRVQVQCNASQFHAGSLLVFMAPEYPTLDVFAMDNRWSKDNLPNGTRTQTNRKGPFAMDHQNFWQWTLYPHQFLNLRTNTTVDLEVPYVNIAPTSSWTQHASWTLVIAVVAPLTYSTGASTSLDITASIQPVRPVFNGLRHEVLSRQSPIPVTIREHAGTWYSTLPDSTVPIYGKTPVAPANYMVGEYKDFLEIAQIPTFIGNKVPNAVPYIEASNTAVKTQPLAVYQVTLSCSCLANTFLAALSRNFAQYRGSLVYTFVFTGTAMMKGKFLIAYTPPGAGKPTSRDQAMQATYAIWDLGLNSSYSFTVPFISPTHFRMVGTDQANITNVDGWVTVWQLTPLTYPPGCPTSAKILTMVSAGKDFSLKMPISPAPWSPQGVENAEKGVTENTDATADFVAQPVYLPENQTKVAFFYDRSSPIGAFAVKSGSLESGFAPFSNKACPNSVILTPGPQFDPAYDQLRPQRLTEIWGNGNEETSEVFPLKTKQDYSFCLFSPFVYYKCDLEVTLSPHTSGAHGLLVRWCPTGTPTKPTTQVLHEVSSLSEGRTPQVYSAGPGTSNQISFVVPYNSPLSVLPAVWYNGHKRFDNTGDLGIAPNSDFGTLFFAGTKPDIKFTVYLRYKNMRVFCPRPTVFFPWPTSGDKIDMTPRAGVLMLESPNPLDVSKTYPTLHILLQFNHRGLEARIFRHGQLWAETHAEVVLRSKTKQISFLSNGSYPSMDATTPLNPWKSTYQAVLRAEPHRVTMDVYHKRIRPFRLPLVQKEWRTCEENVFGLYHVFETHYAGYFSDLLIHDVETNPGPFTFKPRQRPVFQTQGAAVSSMAQTLLPNDLASKAMGSAFTALLDANEDAQKAMKIIKTLSSLSDAWENVKGTLNNPEFWKQLLSRCVQLIAGMTIAVMHPDPLTLLCLGVLTAAEITSQTSLCEEIAAKFKTIFTTPPPRFPVISLFQQQSPLKQVNDVFSLAKNLDWAVKTVEKVVDWFGTWVAQEEREQTLDQLLQRFPEHAKRISDLRNGMAAYVECKESFDFFEKLYNQAVKEKRTGIAAVCEKFRQKHDHATARCEPVVIVLRGDAGQGKSLSSQIIAQAVSKTIFGRQSVYSLPPDSDFFDGYENQFAAIMDDLGQNPDGSDFTTFCQMVSTTNLLPNMASLERKGTPFTSQLVVATTNLPEFRPVTIAHYPAVERRITFDYSVSAGPVCSKTEAGCKVLDVERAFRPTGDAPLPCFQNNCLFLEKAGLQFRDNRSKEILSLVDVIERAVTRIERKKKVLTAVQTLVAQGPVDEVSFYSVVQQLKARQEATDEQLEELQEAFARVQERSSVFSDWMKISAMLCAATLALTQVVKMAKAVKQMVRPDLVRVQLDEQEQGPYNETTRIKPKTLQLLDVQGPNPTMDFEKFVAKFVTAPIGFVYPTGVSTQTCLLVKGRTLAVNRHMAESDWTSIVVRGVSHTRSSVKIIAIAKAGKETDVSFIRLSSGPLFRDNTSKFVKASDVLPHSSSPLIGIMNVDIPMMYTGTFLKAGVSVPVETGQTFNHCIHYKANTRKGWCGSAILADLGGSKKILGFHSAGSMGVAAASIISQEMIDAVVQAFEPQGALERLPDGPRIHVPRKTALRPTVARQVFQPAFAPAVLSKFDPRTDADVDEVAFSKHTSNQETLPPVFRMVAREYANRVFALLGRDNGRLSVKQALDGLEGMDPMDKNTSPGLPYTTLGMRRTDVVDWETATLIPFAAERLEKMNNKDFSDIVYQTFLKDELRPIEKVQAAKTRIVDVPPFEHCILGRQLLGKFASKFQTQPGLELGSAIGCDPDVHWTAFGVAMQGFERVYDVDYSNFDSTHSVAVFRLLAEEFFSEENGFDPLVKDYLESLAISKHAYEEKRYLITGGLPSGCAATSMLNTIMNNIIIRAGLYLTYKNFEFDDVKVLSYGDDLLVATNYQLNFDRVRTSLAKTGYKITPANKTSTFPLESTLEDVVFLKRKFKKEGPLYRPVMNREALEAMLSYYRPGTLSEKLTSITMLAVHSGKQEYDRLFAPFREVGVIVPTFESVEYRWRSLFW" ;
+    ns1:identifier "https://identifiers.org/mobidb:P12296" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Genome polyprotein" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P12296> .
+
+<https://mobidb.org/P12978> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MPTFYLALHGGQTYHLIVDTDSLGNPSLSVIPSNPYQEQLSDTPLIPLTIFVGENTGVPPPLPPPPPPPPPPPPPPPPPPPPPPPPPPSPPPPPPPPPPPQRRDAWTQEPSPLDRDPLGYDVGHGPLASAMRMLWMANYIVRQSRGDRGLILPQGPQTAPQARLVQPHVPPLRPTAPTILSPLSQPRLTPPQPLMMPPRPTPPTPLPPATLTVPPRPTRPTTLPPTPLLTVLQRPTELQPTPSPPRMHLPVLHVPDQSMHPLTHQSTPNDPDSPEPRSPTVFYNIPPMPLPPSQLPPPAAPAQPPPGVINDQQLHHLPSGPPWWPPICDPPQPSKTQGQSRGQSRGRGRGRGRGRGKGKSRDKQRKPGGPWRPEPNTSSPSMPELSPVLGLHQGQGAGDSPTPGPSNAAPVCRNSHTATPNVSPIHEPESHNSPEAPILFPDDWYPPSIDPADLDESWDYIFETTESPSSDEDYVEGPSKRPRPSIQ" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/P12978#prediction-disorder-mobidb_lite.258_487>,
+        <https://mobidb.org/P12978#prediction-disorder-mobidb_lite.52_121> ;
+    ns1:identifier "https://identifiers.org/mobidb:P12978" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Epstein-Barr nuclear antigen 2" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P12978> .
+
+<https://mobidb.org/P12978#prediction-disorder-mobidb_lite.258_487> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/P12978/20221027/7/mobidb.org/P12978/521100967> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/P12978#sequence-location.258_487> .
+
+<https://mobidb.org/P12978#prediction-disorder-mobidb_lite.52_121> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/P12978/20221027/7/mobidb.org/P12978/1225901817> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/P12978#sequence-location.52_121> .
+
+<https://mobidb.org/P12978#sequence-location.258_487> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "487" ;
+    ns1:rangeStart "258" .
+
+<https://mobidb.org/P12978#sequence-location.52_121> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "121" ;
+    ns1:rangeStart "52" .
+
+<https://mobidb.org/P21698> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MDYFPVISVDLQSGRRVVSVEYFRGDGPPRIPYSMVGPCCVFLMHHRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRFPNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLHRMIATEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIVLMEESLMLRSSLPSMMGRNNWIPVIPPIPDVEMESEEESDDDGFVEVD" ;
+    ns1:identifier "https://identifiers.org/mobidb:P21698" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Non-structural protein S" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P21698> .
+
+<https://mobidb.org/P36897> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MEAAVAAPRPRLLLLVLAAAAAAAAALLPGATALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGSVTTTYCCNQDHCNKIELPTTVKSSPGLGPVELAAVIAGPVCFVCISLMLMVYICHNRTVIHHRVPNEEDPSLDRPFISEGTTLKDLIYDMTTSGSGSGLPLLVQRTIARTIVLQESIGKGRFGEVWRGKWRGEEVAVKIFSSREERSWFREAEIYQTVMLRHENILGFIAADNKDNGTWTQLWLVSDYHEHGSLFDYLNRYTVTVEGMIKLALSTASGLAHLHMEIVGTQGKPAIAHRDLKSKNILVKKNGTCCIADLGLAVRHDSATDTIDIAPNHRVGTKRYMAPEVLDDSINMKHFESFKRADIYAMGLVFWEIARRCSIGGIHEDYQLPYYDLVPSDPSVEEMRKVVCEQKLRPNIPNRWQSCEALRVMAKIMRECWYANGAARLTALRIKKTLSQLSQQEGIKM" ;
+    ns1:identifier "https://identifiers.org/mobidb:P36897" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "TGF-beta receptor type-1" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P36897> .
+
+<https://mobidb.org/P42512> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MKTETKVIKGRQGIARNRHTPLCLGLLLALSPLAAAVADARKDGETELPDMVISGESTSATQPPGVTTLGKVPLKPRELPQSASVIDHERLEQQNLFSLDEAMQQATGVTVQPFQLLTTAYYVRGFKVDSFELDGVPALLGNTASSPQDMAIYERVEILRGSNGLLHGTGNPAATVNLVRKRPQREFAASTTLSAGRWDRYRAEVDVGGPLSASGNVRGRAVAAYEDRDYFYDVADQGTRLLYGVTEFDLSPDTLLTVGAQYQHIDSITNMAGVPMAKDGSNLGLSRDTYLDVDWDRFKWDTYRAFGSLEQQLGGGWKGKVSAEYQEADSRLRYAGSFGAIDPQTGDGGQLMGAAYKFKSIQRSLDANLNGPVRLFGLTHELLGGVTYAQGETRQDTARFLNLPNTPVNVYRWDPHGVPRPQIGQYTSPGTTTTTQKGLYALGRIKLAEPLTLVVGGRESWWDQDTPATRFKPGRQFTPYGGLIWDFARDWSWYVSYAEVYQPQADRQTWNSEPLSPVEGKTYETGIKGELADGRLNLSLAAFRIDLENNPQEDPDHPGPPNNPFYISGGKVRSQGFELEGTGYLTPYWSLSAGYTYTSTEYLKDSQNDSGTRYSTFTPRHLLRLWSNYDLPWQDRRWSVGGGLQAQSDYSVDYRGVSMRQGGYALVNMRLGYKIDEHWTAAVNVNNLFDRTYYQSLSNPNWNNRYGEPRSFNVSLRGAF" ;
+    ns1:identifier "https://identifiers.org/mobidb:P42512" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Fe(3+)-pyochelin receptor" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P42512> .
+
+<https://mobidb.org/P47110> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MDQKASYFINEKLFTEVKPVLFTDLIHHLKIGPSMAKKLMFDYYKQTTNAKYNCVVICCYKDQTIKIIHDLSNIPQQDSIIDCFIYAFNPMDSFIPYYDIIDQKDCLTIKNSYELKVSESSKIIERTKTLEEKSKPLVRPTARSKTTPEETTGRKSKSKDMGLRSTALLAKMKKDRDDKETSRQNELRKRKEENLQKINKQNPEREAQMKELNNLFVEDDLDTEEVNGGSKPNSPKETDSNDKDKNNDDLEDLLETTAEDSLMDVPKIQQTKPSETEHSKEPKSEEEPSSFIDEDGYIVTKRPATSTPPRKPSPVVKRALSSSKKQETPSSNKRLKKQGTLESFFKRKAK" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/P47110#prediction-disorder-mobidb_lite.131_350> ;
+    ns1:identifier "https://identifiers.org/mobidb:P47110" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "DNA polymerase delta subunit 3" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P47110> .
+
+<https://mobidb.org/P47110#prediction-disorder-mobidb_lite.131_350> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/P47110/20221027/11/mobidb.org/P47110/582775551> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/P47110#sequence-location.131_350> .
+
+<https://mobidb.org/P47110#sequence-location.131_350> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "350" ;
+    ns1:rangeStart "131" .
+
+<https://mobidb.org/P52292> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MSTNENANTPAARLHRFKNKGKDSTEMRRRRIEVNVELRKAKKDDQMLKRRNVSSFPDDATSPLQENRNNQGTVNWSVDDIVKGINSSNVENQLQATQAARKLLSREKQPPIDNIIRAGLIPKFVSFLGRTDCSPIQFESAWALTNIASGTSEQTKAVVDGGAIPAFISLLASPHAHISEQAVWALGNIAGDGSVFRDLVIKYGAVDPLLALLAVPDMSSLACGYLRNLTWTLSNLCRNKNPAPPIDAVEQILPTLVRLLHHDDPEVLADTCWAISYLTDGPNERIGMVVKTGVVPQLVKLLGASELPIVTPALRAIGNIVTGTDEQTQVVIDAGALAVFPSLLTNPKTNIQKEATWTMSNITAGRQDQIQQVVNHGLVPFLVSVLSKADFKTQKEAVWAVTNYTSGGTVEQIVYLVHCGIIEPLMNLLTAKDTKIILVILDAISNIFQAAEKLGETEKLSIMIEECGGLDKIEALQNHENESVYKASLSLIEKYFSVEEEEDQNVVPETTSEGYTFQVQDGAPGTFNF" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/P52292#prediction-disorder-mobidb_lite.1_27>,
+        <https://mobidb.org/P52292#prediction-disorder-mobidb_lite.43_72> ;
+    ns1:identifier "https://identifiers.org/mobidb:P52292" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Importin subunit alpha-1" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P52292> .
+
+<https://mobidb.org/P52292#prediction-disorder-mobidb_lite.1_27> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/P52292/20221027/12/mobidb.org/P52292/2065828560> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/P52292#sequence-location.1_27> .
+
+<https://mobidb.org/P52292#prediction-disorder-mobidb_lite.43_72> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/P52292/20221027/12/mobidb.org/P52292/1405531173> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/P52292#sequence-location.43_72> .
+
+<https://mobidb.org/P52292#sequence-location.1_27> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "27" ;
+    ns1:rangeStart "1" .
+
+<https://mobidb.org/P52292#sequence-location.43_72> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "72" ;
+    ns1:rangeStart "43" .
+
+<https://mobidb.org/P84233> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MARTKQTARKSTGGKAPRKQLATKAARKSAPATGGVKKPHRYRPGTVALREIRRYQKSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/P84233#prediction-disorder-mobidb_lite.1_43> ;
+    ns1:identifier "https://identifiers.org/mobidb:P84233" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Histone H3.2" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/P84233> .
+
+<https://mobidb.org/P84233#prediction-disorder-mobidb_lite.1_43> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/P84233/20221027/13/mobidb.org/P84233/523243153> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/P84233#sequence-location.1_43> .
+
+<https://mobidb.org/P84233#sequence-location.1_43> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "43" ;
+    ns1:rangeStart "1" .
+
+<https://mobidb.org/Q4R6S5> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MKWKEKLGDGVYDTFMMIDETKCPPCSNVLCNPSEPPPPRRLNMTTEKFIRDHTQHFLDGGEMKVEQLFQEFGNRKSNTVQSDGISDSEKCSPTVSQGKSSDCLNTVKSNSSSKAPKVVPLTPEQALKQYKHHLTAYEKLEIINYPEIYFVGPNAKKRHGVIGGPNNGGYDDADGAYIHVPRDHLAYRYEVLKIIGKGSFGQVARVYDHKLRQYVALKMVRNEKRFHRQAAEEIRILEHLKKQDKTGSMNVIHMLESFTFRNHVCMAFELLSIDLYELIKKNKFQGFSVQLVRKFAQSILQSLDALHKNKIIHCDLKPENILLKHHGRSSTKVIDFGSSCFEYQKLYTYIQSRFYRAPEIILGSRYSTPIDIWSFGCILAELLTGQPLFPGEDEGDQLACMMELLGMPPPKLLEQSKRAKYFINSKGIPRYCSVTTQADGRVVLVGGRSRRGKKRGPPGSKDWGTALKGCDDYLFIEFLKRCLHWDPSARLTPAQALRHPWISKSVPRPLTTIDKVSGKRIVNPASAFQGLGSKLPPVVGIANKLKANLMSETNGSIPLCSVLPKLIS" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/Q4R6S5#prediction-disorder-mobidb_lite.77_117> ;
+    ns1:identifier "https://identifiers.org/mobidb:Q4R6S5" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Dual specificity tyrosine-phosphorylation-regulated kinase 3" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/Q4R6S5> .
+
+<https://mobidb.org/Q4R6S5#prediction-disorder-mobidb_lite.77_117> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q4R6S5/20221027/14/mobidb.org/Q4R6S5/1284145243> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q4R6S5#sequence-location.77_117> .
+
+<https://mobidb.org/Q4R6S5#sequence-location.77_117> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "117" ;
+    ns1:rangeStart "77" .
+
+<https://mobidb.org/Q92585> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MVLPTCPMAEFALPRHSAVMERLRRRIELCRRHHSTCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKHRQPPAATAPAPAAPAPRLDAADGPEHGRPATHLHDTVKRNLDSATSPQNGDQQNGYGDLFPGHKKTRREAPLGVAISSNGLPPASPLGQSDKPSGADALQSSGKHSLGLDSLNKKRLADSSLHLNGGSNPSESFPLSLNKELKQEPVEDLPCMITGTVGSISQSNLMPDLNLNEQEWKELIEELNRSVPDEDMKDLFNEDFEEKKDPESSGSATQTPLAQDINIKTEFSPAAFEQEQLGSPQVRAGSAGQTFLGPSSAPVSTDSPSLGGSQTLFHTSGQPRADNPSPNLMPASAQAQNAQRALAGVVLPSQGPGGASELSSAHQLQQIAAKQKREQMLQNPQQATPAPAPGQMSTWQQTGPSHSSLDVPYPMEKPASPSSYKQDFTNSKLLMMPSVNKSSPRPGGPYLQPSHVNLLSHQPPSNLNQNSANNQGSVLDYGNTKPLSHYKADCGQGSPGSGQSKPALMAYLPQQLSHISHEQNSLFLMKPKPGNMPFRSLVPPGQEQNPSSVPVQAQATSVGTQPPAVSVASSHNSSPYLSSQQQAAVMKQHQLLLDQQKQREQQQKHLQQQQFLQRQQHLLAEQEKQQFQRHLTRPPPQYQDPTQGSFPQQVGQFTGSSAAVPGMNTLGPSNSSCPRVFPQAGNLMPMGPGHASVSSLPTNSGQQDRGVAQFPGSQNMPQSSLYGMASGITQIVAQPPPQATNGHAHIPRQTNVGQNTSVSAAYGQNSLGSSGLSQQHNKGTLNPGLTKPPVPRVSPAMGGQNSSWQHQGMPNLSGQTPGNSNVSPFTAASSFHMQQQAHLKMSSPQFSQAVPNRPMAPMSSAAAVGSLLPPVSAQQRTSAPAPAPPPTAPQQGLPGLSPAGPELGAFSQSPASQMGGRAGLHCTQAYPVRTAGQELPFAYSGQPGGSGLSSVAGHTDLIDSLLKNRTSEEWMSDLDDLLGSQ" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.263_487>,
+        <https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.561_617>,
+        <https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.658_681>,
+        <https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.65_184>,
+        <https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.796_953> ;
+    ns1:identifier "https://identifiers.org/mobidb:Q92585" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Mastermind-like protein 1" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/Q92585> .
+
+<https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.263_487> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/583937262> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q92585#sequence-location.263_487> .
+
+<https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.561_617> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/328407110> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q92585#sequence-location.561_617> .
+
+<https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.658_681> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/1026970398> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q92585#sequence-location.658_681> .
+
+<https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.65_184> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/256494549> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q92585#sequence-location.65_184> .
+
+<https://mobidb.org/Q92585#prediction-disorder-mobidb_lite.796_953> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q92585/20221027/15/mobidb.org/Q92585/253089785> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q92585#sequence-location.796_953> .
+
+<https://mobidb.org/Q92585#sequence-location.263_487> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "487" ;
+    ns1:rangeStart "263" .
+
+<https://mobidb.org/Q92585#sequence-location.561_617> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "617" ;
+    ns1:rangeStart "561" .
+
+<https://mobidb.org/Q92585#sequence-location.658_681> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "681" ;
+    ns1:rangeStart "658" .
+
+<https://mobidb.org/Q92585#sequence-location.65_184> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "184" ;
+    ns1:rangeStart "65" .
+
+<https://mobidb.org/Q92585#sequence-location.796_953> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "953" ;
+    ns1:rangeStart "796" .
+
+<https://mobidb.org/Q95V77> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MSSQQNQNRQGEQQEQGYMEAAKEKVVNAWESTKETLSSTAQAAAEKTAEFRDSAGETIRDLTGQAQEKGQEFKERAGEKAEETKQRAGEKMDETKQRAGEMRENAGQKMEEYKQQGKGKAEELRDTAAEKLHQAGEKVKGRD" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/Q95V77#prediction-disorder-mobidb_lite.1_143> ;
+    ns1:identifier "https://identifiers.org/mobidb:Q95V77" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Late embryogenesis abundant protein 1" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/Q95V77> .
+
+<https://mobidb.org/Q95V77#prediction-disorder-mobidb_lite.1_143> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q95V77/20221027/16/mobidb.org/Q95V77/1564666063> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q95V77#sequence-location.1_143> .
+
+<https://mobidb.org/Q95V77#sequence-location.1_143> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "143" ;
+    ns1:rangeStart "1" .
+
+<https://mobidb.org/Q9IK91> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MDKLELVNDGLNIIDFIQKNQKEIQKTYGRSSIQQPSIKDQTKAWEDFLQCTSGESEQVEGGMSKDDGDVERRNLEDLSSTSPTDGTIGKRVSNTRDWAEGSDDIQLDPVVTDVVYHDHGGECTGYGFTSSPERGWSDYTSGANNGNVCLVSDAKMLSYAPEIAVSKEDRETDLVHLENKLSTTGLNPTAVPFTLRNLSDPAKDSPVIAEHYYGLGVKEQNVGPQTSRNVNLDSIKLYTSDDEEADQLEFEDEFAGSSSEVIVGISPEDEEPSSVGGKPNESIGRTIEGQSIRDNLQAKDNKSTDVPGAGPKDSAVKEEPPQKRLPMLAEEFECSGSEDPIIRELLKENSLINCQQGKDAQPPYHWSIERSISPDKTEIVNGAVQTADRQRPGTPMPKSRGIPIKKGTDAKYPSAGTENVPGSKSGATRHVRGSPPYQEGKSVNAENVQLNASTAVKETDKSEVNPVDDNDSLDDKYIMPSDDFSNTFFPHDTDRLNYHADHLGDYDLETLCEESVLMGVINSIKLINLDMRLNHIEEQVKEIPKIINKLESIDRVLAKTNTALSTIEGHLVSMMIMIPGKGKGERKGKNNPELKPVIGRDILEQQSLFSFDNVKNFRDGSLTNEPYGAAVQLREDLILPELNFEETNASQFVPMADDSSRDVIKTLIRTHIKDRELRSELIGYLNKAENDEEIQEIANTVNDIIDGNI" ;
+    ns1:hasSequenceAnnotation <https://mobidb.org/Q9IK91#prediction-disorder-mobidb_lite.265_324>,
+        <https://mobidb.org/Q9IK91#prediction-disorder-mobidb_lite.384_473>,
+        <https://mobidb.org/Q9IK91#prediction-disorder-mobidb_lite.53_92> ;
+    ns1:identifier "https://identifiers.org/mobidb:Q9IK91" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "Phosphoprotein" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/Q9IK91> .
+
+<https://mobidb.org/Q9IK91#prediction-disorder-mobidb_lite.265_324> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q9IK91/20221027/17/mobidb.org/Q9IK91/268848668> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q9IK91#sequence-location.265_324> .
+
+<https://mobidb.org/Q9IK91#prediction-disorder-mobidb_lite.384_473> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q9IK91/20221027/17/mobidb.org/Q9IK91/2064076058> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q9IK91#sequence-location.384_473> .
+
+<https://mobidb.org/Q9IK91#prediction-disorder-mobidb_lite.53_92> a ns1:SequenceAnnotation ;
+    ns1:additionalProperty <https://bioschemas.org/crawl/v1/mobidb/Q9IK91/20221027/17/mobidb.org/Q9IK91/1389801320> ;
+    ns1:description "Protein disordered region predicted by MobiDB-lite" ;
+    ns1:sequenceLocation <https://mobidb.org/Q9IK91#sequence-location.53_92> .
+
+<https://mobidb.org/Q9IK91#sequence-location.265_324> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "324" ;
+    ns1:rangeStart "265" .
+
+<https://mobidb.org/Q9IK91#sequence-location.384_473> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "473" ;
+    ns1:rangeStart "384" .
+
+<https://mobidb.org/Q9IK91#sequence-location.53_92> a ns1:SequenceRange ;
+    ns2:conformsTo <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> ;
+    ns1:rangeEnd "92" ;
+    ns1:rangeStart "53" .
+
+<https://mobidb.org/Q9SUM3> a ns1:Protein ;
+    ns2:conformsTo <https://bioschemas.org/profiles/Protein/0.11-RELEASE> ;
+    ns2:title "MobiDB" ;
+    ns1:hasBioPolymerSequence "MSSSSSSSTSMIDLMAAIIKGEPVIVSDPANASAYESVAAELSSMLIENRQFAMIVTTSIAVLIGCIVMLVWRRSGSGNSKRVEPLKPLVIKPREEEIDDGRKKVTIFFGTQTGTAEGFAKALGEEAKARYEKTRFKIVDLDDYAADDDEYEEKLKKEDVAFFFLATYGDGEPTDNAARFYKWFTEGNDRGEWLKNLKYGVFGLGNRQYEHFNKVAKVVDDILVEQGAQRLVQVGLGDDDQCIEDDFTAWREALWPELDTILREEGDTAVATPYTAAVLEYRVSIHDSEDAKFNDINMANGNGYTVFDAQHPYKANVAVKRELHTPESDRSCIHLEFDIAGSGLTYETGDHVGVLCDNLSETVDEALRLLDMSPDTYFSLHAEKEDGTPISSSLPPPFPPCNLRTALTRYACLLSSPKKSALVALAAHASDPTEAERLKHLASPAGKDEYSKWVVESQRSLLEVMAEFPSAKPPLGVFFAGVAPRLQPRFYSISSSPKIAETRIHVTCALVYEKMPTGRIHKGVCSTWMKNAVPYEKSENCSSAPIFVRQSNFKLPSDSKVPIIMIGPGTGLAPFRGFLQERLALVESGVELGPSVLFFGCRNRRMDFIYEEELQRFVESGALAELSVAFSREGPTKEYVQHKMMDKASDIWNMISQGAYLYVCGDAKGMARDVHRSLHTIAQEQGSMDSTKAEGFVKNLQTSGRYLRDVW" ;
+    ns1:identifier "https://identifiers.org/mobidb:Q9SUM3" ;
+    ns1:includedInDataset "https://mobidb.org/#2021-11" ;
+    ns1:name "NADPH--cytochrome P450 reductase 2" ;
+    ns1:sameAs <http://purl.uniprot.org/uniprot/Q9SUM3> .
+
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> a ns1:CreativeWork .
+
+<https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> a ns1:CreativeWork .
+
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> a ns1:DefinedTerm ;
+    ns1:inDefinedTermSet <https://disprot.org/assets/data/IDPO_v0.2.owl> ;
+    ns1:name "Disorder" ;
+    ns1:termCode "IDPO:00076" .
+

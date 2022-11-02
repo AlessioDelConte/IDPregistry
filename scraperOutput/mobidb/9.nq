@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P36897> <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> <http://purl.org/pav/retrievedOn> "2022-10-27T13:08:52"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <https://schema.org/hasBioPolymerSequence> "MEAAVAAPRPRLLLLVLAAAAAAAAALLPGATALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGSVTTTYCCNQDHCNKIELPTTVKSSPGLGPVELAAVIAGPVCFVCISLMLMVYICHNRTVIHHRVPNEEDPSLDRPFISEGTTLKDLIYDMTTSGSGSGLPLLVQRTIARTIVLQESIGKGRFGEVWRGKWRGEEVAVKIFSSREERSWFREAEIYQTVMLRHENILGFIAADNKDNGTWTQLWLVSDYHEHGSLFDYLNRYTVTVEGMIKLALSTASGLAHLHMEIVGTQGKPAIAHRDLKSKNILVKKNGTCCIADLGLAVRHDSATDTIDIAPNHRVGTKRYMAPEVLDDSINMKHFESFKRADIYAMGLVFWEIARRCSIGGIHEDYQLPYYDLVPSDPSVEEMRKVVCEQKLRPNIPNRWQSCEALRVMAKIMRECWYANGAARLTALRIKKTLSQLSQQEGIKM" <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <https://schema.org/identifier> "https://identifiers.org/mobidb:P36897" <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <https://schema.org/name> "TGF-beta receptor type-1" <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P36897> <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .
+<https://mobidb.org/P36897> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P36897/20221027/9> .

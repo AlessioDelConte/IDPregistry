@@ -1,0 +1,57 @@
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> <http://purl.org/pav/retrievedFrom> <https://disprot.org/DP01389> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> <http://purl.org/pav/retrievedOn> "2022-10-27T13:09:31"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/hasBioPolymerSequence> "MARTKQTARKSTGGKAPRKQLATKAARKSAPATGGVKKPHRYRPGTVALREIRRYQKSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/hasSequenceAnnotation> <https://disprot.org/DP01389#disorder-content> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/hasSequenceAnnotation> <https://disprot.org/DP01389r001> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/identifier> "https://identifiers.org/disprot:DP01389" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/includedInDataset> "https://disprot.org/#2022-03" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/name> "Histone H3.2" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P84233> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <https://schema.org/taxonomicRange> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#disorder-content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SequenceAnnotation> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#disorder-content> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#disorder-content> <https://schema.org/additionalProperty> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/2140458740> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#disorder-content> <https://schema.org/sequenceLocation> <https://disprot.org/DP01389#sequence-location.1_136> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/2140458740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/2140458740> <https://schema.org/name> "Protein disorder content" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/2140458740> <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/2140458740> <https://schema.org/value> "2.5735294117647056E-1" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SequenceRange> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_136> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_136> <https://schema.org/rangeEnd> "136" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_136> <https://schema.org/rangeStart> "1" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389r001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SequenceAnnotation> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389r001> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389r001> <https://schema.org/additionalProperty> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1083835666> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389r001> <https://schema.org/sequenceLocation> <https://disprot.org/DP01389#sequence-location.1_35> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389r001> <https://schema.org/subjectOf> <https://identifiers.org/pubmed:24088044> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1083835666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1083835666> <https://schema.org/name> "Term" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1083835666> <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DefinedTerm> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://schema.org/name> "disorder" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://schema.org/termCode> "IDPO:00076" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DefinedTermSet> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl> <https://schema.org/name> "IDP ontology" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SequenceRange> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_35> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_35> <https://schema.org/rangeEnd> "35" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389#sequence-location.1_35> <https://schema.org/rangeStart> "1" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://identifiers.org/pubmed:24088044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/ScholarlyArticle> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DefinedTerm> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <https://schema.org/inDefinedTermSet> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/381527371> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <https://schema.org/sameAs> <http://purl.uniprot.org/taxonomy/8355> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <https://schema.org/sameAs> <https://identifiers.org/taxonomy:8355> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <https://schema.org/sameAs> <http://purl.obolibrary.org/obo/NCBITaxon_8355> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <https://schema.org/termCode> "8355" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/1986656196> <https://schema.org/url> <http://purl.bioontology.org/ontology/NCBITAXON/8355> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/381527371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DefinedTermSet> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/381527371> <https://schema.org/name> "NCBI taxon" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9/disprot.org/DP01389/381527371> <https://schema.org/url> <https://bioportal.bioontology.org/ontologies/NCBITAXON> <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
+<https://disprot.org/DP01389> <http://purl.org/dc/terms/title> "DisProt" <https://bioschemas.org/crawl/v1/disprot/DP01389/20221027/9> .
