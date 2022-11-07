@@ -1,0 +1,70 @@
+# Get a Uniprot protein-centric view of all the annotations associated to it (PED, MobiDB and DisProt), with informations about the annotation and start-end positions. The name of the organism is fetched from Uniprot via the Uniprot URI
+
+PREFIX schema: <https://schema.org/>
+PREFIX bio: <https://bioschemas.org/crawl/v1/>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX up: <http://purl.uniprot.org/core/>
+
+SELECT DISTINCT ?sequenceID ?organismName ?name ?taxon ?source ?sourceID ?start ?end ?annotationName ?annotationCode 
+WHERE {
+    {
+        graph <bio:disprot> {
+            ?protein schema:sameAs ?sequenceID ;
+                     schema:hasSequenceAnnotation ?annotationID ;
+                     schema:name ?name ;
+                     schema:identifier ?identifier ;
+                     dc:title ?source
+            OPTIONAL {
+                ?protein schema:taxonomicRange/schema:termCode ?taxon
+            }
+        }
+    } UNION {
+        graph <bio:mobidb> {
+            ?protein schema:sameAs ?sequenceID ;
+                     schema:hasSequenceAnnotation ?annotationID ;
+                     schema:name ?name ;
+                     schema:identifier ?identifier ;
+                     dc:title ?source .
+            
+            OPTIONAL {
+                ?protein schema:taxonomicRange/schema:termCode ?taxon
+            }
+        }
+    } UNION {
+        graph <bio:ped> {
+            ?collection a schema:CollectionPage ;
+                        dc:title ?source ;
+                        schema:mainEntity ?e ;
+                        schema:identifier ?identifier .
+            ?e schema:itemListElement ?protein .
+            ?protein schema:sameAs ?sequenceID ;
+                     schema:name ?name ;
+                     schema:hasSequenceAnnotation ?annotationID ;
+        }
+    }
+    BIND(REPLACE(?identifier, "(^.+:)", "") AS ?sourceID)
+    
+    ?annotationID schema:sequenceLocation ?sequenceLocation ;
+                  schema:additionalProperty/schema:value ?annotation .
+    ?sequenceLocation schema:rangeStart ?start ;
+                      schema:rangeEnd ?end .
+    ?annotation schema:name ?annotationName ;
+                schema:termCode ?annotationCode .
+    
+    {
+        SELECT DISTINCT ?sequenceID ?organismName
+        WHERE {
+            ?protein a schema:Protein ;
+                     schema:sameAs ?sequenceID .
+                     
+            SERVICE <https://sparql.uniprot.org/sparql> {
+                ?sequenceID a up:Protein ;
+                            up:organism ?organism .
+                ?organism up:scientificName ?organismName .
+            }
+        }
+        OFFSET 0
+        LIMIT 3
+    }
+}
+ORDER BY ?source ?start ?end
