@@ -1,0 +1,87 @@
+# Get disordered regions (PED and MobiDB) that are not fully contained in a DisProt curated region, and with the Uniprot service associates PDB chains that are related to the filtered region.
+
+PREFIX schema: <https://schema.org/>
+PREFIX bio: <https://bioschemas.org/crawl/v1/>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX up: <http://purl.uniprot.org/core/>
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?sequenceID ?source ?identifier ?start ?end (GROUP_CONCAT(?pdbInfo;separator=' % ') AS ?pdbInfo)
+WHERE {
+    {
+        SELECT DISTINCT ?sequenceID ?source ?identifier ?start ?end ?source
+        WHERE {
+            {
+                graph <bio:ped> {
+                    ?collection a schema:CollectionPage ;
+                                dc:title ?source ;
+                                schema:mainEntity ?entity ;
+                                schema:identifier ?identifier .
+                    ?entity schema:itemListElement ?protein .
+                    ?protein schema:sameAs ?sequenceID ;
+                             schema:hasSequenceAnnotation ?annotationID .
+                    ?annotationID schema:sequenceLocation ?sequenceLocation .
+                    ?sequenceLocation schema:rangeStart ?s ;
+                                      schema:rangeEnd ?e .
+                    BIND(xsd:integer(?s) AS ?start)
+                    BIND(xsd:integer(?e) AS ?end)
+                }
+            } UNION {
+                graph <bio:mobidb> {
+                    ?protein schema:sameAs ?sequenceID ;
+                             schema:hasSequenceAnnotation ?annotationID ;
+                             schema:identifier ?identifier ;
+                             dc:title ?source .
+                    ?annotationID schema:sequenceLocation ?sequenceLocation .
+                    ?sequenceLocation schema:rangeStart ?s ;
+                                      schema:rangeEnd ?e .
+                    BIND(xsd:integer(?s) AS ?start)
+                    BIND(xsd:integer(?e) AS ?end)
+                }
+            }
+            
+            {
+                SELECT ?disprotSeq ?disprotStart ?disprotEnd
+                WHERE {
+                    graph <bio:disprot> {
+                        ?protein schema:sameAs ?disprotSeq ;
+                                 schema:hasSequenceAnnotation ?annotationID ;
+                                 schema:identifier ?identifier .
+                        ?annotationID schema:sequenceLocation ?sequenceLocation .
+                        ?sequenceLocation schema:rangeStart ?s ;
+                                          schema:rangeEnd ?e .
+                        BIND(xsd:integer(?s) AS ?disprotStart)
+                        BIND(xsd:integer(?e) AS ?disprotEnd)
+                    }
+                }
+            }
+            FILTER(!(?sequenceID = ?disprotSeq && ?start >= ?disprotStart && ?end <= ?disprotEnd))
+        }
+        offset 45
+        limit 5
+    }
+    
+    SERVICE <https://sparql.uniprot.org/sparql> {
+        ?sequenceID a up:Protein ;
+                    rdfs:seeAlso ?pdb .
+        ?pdb up:database <http://purl.uniprot.org/database/PDB> ;
+             up:chainSequenceMapping ?chainSm .
+        ?chainSm up:chain ?chainsPlusRange .
+        
+        # Extract the list of chains from the text representation.
+        BIND(STRBEFORE(?chainsPlusRange, '=') AS ?chain)
+        BIND(STRAFTER(?chainsPlusRange, '=') AS ?range)
+        BIND(xsd:integer(STRBEFORE(?range, '-')) AS ?rangeStart)
+        BIND(xsd:integer(STRAFTER(?range, '-')) AS ?rangeEnd)
+        
+        FILTER(?start >= xsd:integer(?rangeStart) && ?start <= xsd:integer(?rangeEnd) ||
+        ?end >= xsd:integer(?rangeStart) && ?end <= xsd:integer(?rangeEnd) ||
+        ?start < xsd:integer(?rangeStart) && ?end > xsd:integer(?rangeEnd)) 
+        
+        BIND(REPLACE(STR(?pdb), "(^.+/)", "") AS ?pdbId)
+        
+        BIND(concat(?pdbId, '_', ?chain, ' ', ?rangeStart, '-', ?rangeEnd) AS ?pdbInfo)
+    }
+}
+GROUP BY ?sequenceID ?source ?identifier ?start ?end
