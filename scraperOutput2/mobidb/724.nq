@@ -1,0 +1,30 @@
+<https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P0AD49> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> <http://purl.org/pav/retrievedOn> "2023-03-13T11:23:22"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <https://schema.org/hasBioPolymerSequence> "MTMNITSKQMEITPAIRQHVADRLAKLEKWQTHLINPHIILSKEPQGFVADATINTPNGVLVASGKHEDMYTAINELINKLERQLNKLQHKGEARRAATSVKDANFVEEVEEE" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <https://schema.org/hasSequenceAnnotation> <https://mobidb.org/P0AD49#prediction-disorder-mobidb_lite.91_113> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <https://schema.org/identifier> "https://identifiers.org/mobidb:P0AD49" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <https://schema.org/name> "Ribosome-associated inhibitor A" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P0AD49> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#prediction-disorder-mobidb_lite.91_113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SequenceAnnotation> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#prediction-disorder-mobidb_lite.91_113> <https://schema.org/additionalProperty> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724/mobidb.org/P0AD49/1432128630> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#prediction-disorder-mobidb_lite.91_113> <https://schema.org/description> "Protein disordered region predicted by MobiDB-lite" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#prediction-disorder-mobidb_lite.91_113> <https://schema.org/sequenceLocation> <https://mobidb.org/P0AD49#sequence-location.91_113> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724/mobidb.org/P0AD49/1432128630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724/mobidb.org/P0AD49/1432128630> <https://schema.org/name> "Term" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724/mobidb.org/P0AD49/1432128630> <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DefinedTerm> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://schema.org/name> "Disorder" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> <https://schema.org/termCode> "IDPO:00076" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DefinedTermSet> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://disprot.org/assets/data/IDPO_v0.2.owl> <https://schema.org/name> "IDP ontology" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#sequence-location.91_113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SequenceRange> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#sequence-location.91_113> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#sequence-location.91_113> <https://schema.org/rangeEnd> "113" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49#sequence-location.91_113> <https://schema.org/rangeStart> "91" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .
+<https://mobidb.org/P0AD49> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P0AD49/20230313/724> .

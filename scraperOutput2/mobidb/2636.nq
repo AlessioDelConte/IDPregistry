@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/Q9NV23> <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> <http://purl.org/pav/retrievedOn> "2023-03-13T11:57:33"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <https://schema.org/hasBioPolymerSequence> "MERGDQPKRTRNENIFNCLYKNPEATFKLICFPWMGGGSTHFAKWGQDTHDLLEVHSLRLPGRESRVEEPLENDISQLVDEVVCALQPVIQDKPFAFFGHSMGSYIAFRTALGLKENNQPEPLHLFLSSATPVHSKAWHRIPKDDELSEEQISHYLMEFGGTPKHFAEAKEFVKQCSPIIRADLNIVRSCTSNVPSKAVLSCDLTCFVGSEDIAKDMEAWKDVTSGNAKIYQLPGGHFYLLDPANEKLIKNYIIKCLEVSSISNF" <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <https://schema.org/identifier> "https://identifiers.org/mobidb:Q9NV23" <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <https://schema.org/name> "S-acyl fatty acid synthase thioesterase, medium chain" <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/Q9NV23> <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .
+<https://mobidb.org/Q9NV23> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/Q9NV23/20230313/2636> .

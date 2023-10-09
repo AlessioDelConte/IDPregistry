@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P50440> <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> <http://purl.org/pav/retrievedOn> "2023-03-13T11:36:10"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <https://schema.org/hasBioPolymerSequence> "MLRVRCLRGGSRGAEAVHYIGSRLGRTLTGWVQRTFQSTQAATASSRNSCAADDKATEPLPKDCPVSSYNEWDPLEEVIVGRAENACVPPFTIEVKANTYEKYWPFYQKQGGHYFPKDHLKKAVAEIEEMCNILKTEGVTVRRPDPIDWSLKYKTPDFESTGLYSAMPRDILIVVGNEIIEAPMAWRSRFFEYRAYRSIIKDYFHRGAKWTTAPKPTMADELYNQDYPIHSVEDRHKLAAQGKFVTTEFEPCFDAADFIRAGRDIFAQRSQVTNYLGIEWMRRHLAPDYRVHIISFKDPNPMHIDATFNIIGPGIVLSNPDRPCHQIDLFKKAGWTIITPPTPIIPDDHPLWMSSKWLSMNVLMLDEKRVMVDANEVPIQKMFEKLGITTIKVNIRNANSLGGGFHCWTCDVRRRGTLQSYLD" <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <https://schema.org/identifier> "https://identifiers.org/mobidb:P50440" <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <https://schema.org/name> "Glycine amidinotransferase, mitochondrial" <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P50440> <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .
+<https://mobidb.org/P50440> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P50440/20230313/1416> .

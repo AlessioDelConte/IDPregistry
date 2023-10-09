@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/O32728> <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> <http://purl.org/pav/retrievedOn> "2023-03-13T11:15:04"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <https://schema.org/hasBioPolymerSequence> "MDVDVKQGQSPIKDQEMKELIRRSQEGDQEARDEIIEKNMRLVWSVVQRFLNRGYEADDLFQIGCIGLLKSVDKFDLSYDVKFSTYAVPMIIGEIQRFLRDDGTVKVSRSLKEMGNKIRKAKDELSKTRGRSPTITEIADHLGISPEDVVLAQEAVRLPTSIHETVYENDGDPITLLDQIADADEASWFDKIALKKAIEELDERERLIVYLRYYRDRTQSEVASRLGISQVQVSRLEKKILQHIKDKMDG" <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <https://schema.org/identifier> "https://identifiers.org/mobidb:O32728" <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <https://schema.org/name> "RNA polymerase sigma factor" <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/O32728> <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .
+<https://mobidb.org/O32728> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/O32728/20230313/221> .

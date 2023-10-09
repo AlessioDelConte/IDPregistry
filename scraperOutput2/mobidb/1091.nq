@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P27682> <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> <http://purl.org/pav/retrievedOn> "2023-03-13T11:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <https://schema.org/hasBioPolymerSequence> "MTSRMAILSGLLFWLLLEWNPAFAYSPRTPDRVSETDIQRLLHGVMEQLGIARPRVEYPAHQAMNLVGPQSIEGGAHEGLQHLGPFGNIPNIVAELTGDNIPKDFSEDQGYPDPPNPCPLGKTADDGCLENAPDTAEFSREFQLDQHLFDPEHDYPGLGKWNKKLLYEKMKGGQRRKRRSVNPYLQGKRLDNVVAKKSVPHFSEEEKEPE" <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <https://schema.org/identifier> "https://identifiers.org/mobidb:P27682" <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <https://schema.org/name> "Neuroendocrine protein 7B2" <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P27682> <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .
+<https://mobidb.org/P27682> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P27682/20230313/1091> .

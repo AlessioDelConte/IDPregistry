@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P33128> <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> <http://purl.org/pav/retrievedOn> "2023-03-13T11:31:50"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <https://schema.org/hasBioPolymerSequence> "MFFNTKHTTALCFVTCMAFSSSSIADIVISGTRVIYKSDQKSVNVRLENKGNNPLLVQSWLDTGDDNAEPGSITVPFTATPPVSRIDAKRGQTIKLMYTASTSLPKDRESVFWFNVLEVPPKPDAEKVANQSLLQLAFRTRIKLFYRPDGLKGNPSEAPLALKWFWSGSEGKASLRVTNPTPYYVSFSSGDLEASGKRYPIDVKMIAPFSDEVMKVNGLNGKANSAKVHFYAINDFGGAIEGNARL" <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <https://schema.org/identifier> "https://identifiers.org/mobidb:P33128" <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <https://schema.org/name> "Probable fimbrial chaperone YadV" <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P33128> <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .
+<https://mobidb.org/P33128> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P33128/20230313/1186> .

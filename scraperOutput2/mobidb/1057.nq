@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P25791> <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> <http://purl.org/pav/retrievedOn> "2023-03-13T11:29:18"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <https://schema.org/hasBioPolymerSequence> "MSSAIERKSLDPSEEPVDEVLQIPPSLLTCGGCQQNIGDRYFLKAIDQYWHEDCLSCDLCGCRLGEVGRRLYYKLGRKLCRRDYLRLFGQDGLCASCDKRIRAYEMTMRVKDKVYHLECFKCAACQKHFCVGDRYLLINSDIVCEQDIYEWTKINGMI" <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <https://schema.org/identifier> "https://identifiers.org/mobidb:P25791" <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <https://schema.org/name> "Rhombotin-2" <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P25791> <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .
+<https://mobidb.org/P25791> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P25791/20230313/1057> .

@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/C6KSX0> <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> <http://purl.org/pav/retrievedOn> "2023-03-13T11:12:40"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <https://schema.org/hasBioPolymerSequence> "MIKLSKKYCLGISFVLYILLSVCEGHKNLTCDFNDVYKLEFHPNQQTSVTKLCNLTPNVLEKVTIKCGSDKLNYNLYPPTCFEEVYASRNMMHLKKIKEFVIGSSMFMRRSLTPNKINEVSFRIPPNMMPEKPIYCFCENKKTITINGSNGNPSSKKDIINRGIVEIIIPSLNEKVKGCDFTTSESTIFSKGYSINEISNKSSNNQQDIVCTVKAHANDLIGFKCPSNYSVEPHDCFVSAFNLSGKNENLENKLKLTNIIMDHYNNTFYSRLPSLISDNWKFFCVCSKDNEKKLVFTVEASISSSNTKLASRDNTYQDYISNSSFLTLSSYCAFITFIITSFLSFIL" <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <https://schema.org/identifier> "https://identifiers.org/mobidb:C6KSX0" <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <https://schema.org/name> "Merozoite surface protein P12" <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/C6KSX0> <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .
+<https://mobidb.org/C6KSX0> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/C6KSX0/20230313/75> .

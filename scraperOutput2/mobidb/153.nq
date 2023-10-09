@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/O00755> <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> <http://purl.org/pav/retrievedOn> "2023-03-13T11:13:56"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <https://schema.org/hasBioPolymerSequence> "MNRKARRCLGHLFLSLGMVYLRIGGFSSVVALGASIICNKIPGLAPRQRAICQSRPDAIIVIGEGSQMGLDECQFQFRNGRWNCSALGERTVFGKELKVGSREAAFTYAIIAAGVAHAITAACTQGNLSDCGCDKEKQGQYHRDEGWKWGGCSADIRYGIGFAKVFVDAREIKQNARTLMNLHNNEAGRKILEENMKLECKCHGVSGSCTTKTCWTTLPQFRELGYVLKDKYNEAVHVEPVRASRNKRPTFLKIKKPLSYRKPMDTDLVYIEKSPNYCEEDPVTGSVGTQGRACNKTAPQASGCDLMCCGRGYNTHQYARVWQCNCKFHWCCYVKCNTCSERTEMYTCK" <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <https://schema.org/identifier> "https://identifiers.org/mobidb:O00755" <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <https://schema.org/name> "Protein Wnt-7a" <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/O00755> <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .
+<https://mobidb.org/O00755> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/O00755/20230313/153> .

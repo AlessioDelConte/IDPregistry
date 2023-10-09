@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P04271> <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> <http://purl.org/pav/retrievedOn> "2023-03-13T11:19:48"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <https://schema.org/hasBioPolymerSequence> "MSELEKAMVALIDVFHQYSGREGDKHKLKKSELKELINNELSHFLEEIKEQEVVDKVMETLDNDGDGECDFQEFMAFVAMVTTACHEFFEHE" <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <https://schema.org/identifier> "https://identifiers.org/mobidb:P04271" <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <https://schema.org/name> "Protein S100-B" <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P04271> <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .
+<https://mobidb.org/P04271> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P04271/20230313/513> .

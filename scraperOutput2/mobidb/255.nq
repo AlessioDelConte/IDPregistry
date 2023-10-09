@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/O43715> <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> <http://purl.org/pav/retrievedOn> "2023-03-13T11:15:35"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <https://schema.org/hasBioPolymerSequence> "MNSVGEACTDMKREYDQCFNRWFAEKFLKGDSSGDPCTDLFKRYQQCVQKAIKEKEIPIEGLEFMGHGKEKPENSS" <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <https://schema.org/identifier> "https://identifiers.org/mobidb:O43715" <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <https://schema.org/name> "TP53-regulated inhibitor of apoptosis 1" <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/O43715> <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .
+<https://mobidb.org/O43715> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/O43715/20230313/255> .

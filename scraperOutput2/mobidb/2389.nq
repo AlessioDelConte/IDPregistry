@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/Q91ZW2> <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> <http://purl.org/pav/retrievedOn> "2023-03-13T11:53:23"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <https://schema.org/hasBioPolymerSequence> "MGAAAWAPPHLLLRASFLLLLLLLPLRGRSAGSWDLAGYLLYCPCMGRFGNQADHFLGSLAFAKLLNRTLAVPPWIEYQHHKPPFTNLHVSYQKYFKLEPLQAYHRVVSLEDFMENLAPSHWPPEKRVAYCFEVAAQRSPDKKTCPMKEGNPFGPFWDQFHVSFNKSELFTGISFSASYKEQWTQRFPAKEHPVLALPGAPAQFPVLEEHRELQKYMVWSDEMVRTGEALISAHLVRPYVGIHLRIGSDWKNACAMLKDGTAGSHFMASPQCVGYSRSTATPLTMTMCLPDLKEIQRAVTLWVRALNARSVYIATDSESYVSEIQQLFKDKVRVVSLKPEVAQIDLYILGQADHFIGNCVSSFTAFVKRERDLHGRQSSFFGMDRPSQLRDEF" <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <https://schema.org/identifier> "https://identifiers.org/mobidb:Q91ZW2" <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <https://schema.org/name> "GDP-fucose protein O-fucosyltransferase 1" <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/Q91ZW2> <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .
+<https://mobidb.org/Q91ZW2> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/Q91ZW2/20230313/2389> .

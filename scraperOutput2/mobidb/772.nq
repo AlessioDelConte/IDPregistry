@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P0DP23> <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> <http://purl.org/pav/retrievedOn> "2023-03-13T11:24:06"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <https://schema.org/hasBioPolymerSequence> "MADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTIDFPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREADIDGDGQVNYEEFVQMMTAK" <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <https://schema.org/identifier> "https://identifiers.org/mobidb:P0DP23" <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <https://schema.org/name> "Calmodulin-1" <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P0DP23> <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .
+<https://mobidb.org/P0DP23> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P0DP23/20230313/772> .

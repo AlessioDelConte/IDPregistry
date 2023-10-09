@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P27088> <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> <http://purl.org/pav/retrievedOn> "2023-03-13T11:29:50"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <https://schema.org/hasBioPolymerSequence> "MEPEPEPEQEANKEEEKILSAAVRAKIERNRQRALMLRQARLACRPYPTGEGISTVKAPPKVIDSGGGFFIEEEEAEEQHVENVVRQPGPVLECDYLICEECGKDFMDSYLSNHFDLAVCDSCRDAEEKHKLITRTEAKQEYLLKDCDIDKREPVLKFILKKNPHNTHWGDMKLYLKAQVIKRSLEVWGSEEALEEAKEVRKDNRDKMKQKKFDKKVKELRRTVRSSLWKKEASGHQHEYGPEEHVEEDSYKKTCITCGYEMNYEKM" <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <https://schema.org/identifier> "https://identifiers.org/mobidb:P27088" <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <https://schema.org/name> "DNA repair protein complementing XP-A cells homolog" <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P27088> <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .
+<https://mobidb.org/P27088> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P27088/20230313/1082> .

@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/O67086> <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> <http://purl.org/pav/retrievedOn> "2023-03-13T11:16:27"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <https://schema.org/hasBioPolymerSequence> "MRVKGPSSRRKKKKILKLAKGYRGQRSRSYRRAKEAVMRALYYQYRDRKLRKREFRRLWIARINAAVRAYGLNYSTFINGLKKAGIELDRKILADMAVRDPQAFEQVVNKVKEALQVQ" <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <https://schema.org/identifier> "https://identifiers.org/mobidb:O67086" <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <https://schema.org/name> "50S ribosomal protein L20" <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/O67086> <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .
+<https://mobidb.org/O67086> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/O67086/20230313/307> .

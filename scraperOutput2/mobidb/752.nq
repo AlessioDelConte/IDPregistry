@@ -1,0 +1,11 @@
+<https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> <http://purl.org/pav/retrievedFrom> <https://mobidb.org/P0C079> <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> <http://purl.org/pav/retrievedOn> "2023-03-13T11:23:47"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Protein> <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <http://purl.org/dc/terms/conformsTo> <https://bioschemas.org/profiles/Protein/0.11-RELEASE> <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <https://schema.org/hasBioPolymerSequence> "MGSINLRIDDELKARSYAALEKMGVTPSEALRLMLEYIADNERLPFKQTLLSDEDAELVEIVKERLRNPKPVRVTLDEL" <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <https://schema.org/identifier> "https://identifiers.org/mobidb:P0C079" <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <https://schema.org/includedInDataset> "https://mobidb.org/#2021-11" <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <https://schema.org/name> "Antitoxin RelB" <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <https://schema.org/sameAs> <http://purl.uniprot.org/uniprot/P0C079> <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://bioschemas.org/profiles/Protein/0.11-RELEASE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
+<https://mobidb.org/P0C079> <http://purl.org/dc/terms/title> "MobiDB" <https://bioschemas.org/crawl/v1/mobidb/P0C079/20230313/752> .
