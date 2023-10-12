@@ -1,47 +1,45 @@
-# Get disordered regions (PED and MobiDB) that are not fully contained in a DisProt curated region, and with the Uniprot service associates PDB chains that are related to the filtered region.
+# Get disordered regions (MobiDB) that are not fully contained in a DisProt disordered region (IDPO:00076), and with the Uniprot service associates PDB chains that are related to the filtered region.
 PREFIX schema: <https://schema.org/>
 PREFIX idp: <https://idpcentral.org/registry/>
-PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX up: <http://purl.uniprot.org/core/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?sequenceID ?source ?identifier ?start ?end (GROUP_CONCAT(?pdbInfo; separator=' % ') AS ?pdbInfo)
+
+SELECT ?sequenceID ?identifier ?disprotIdentifier ?start ?end ?pdbInfo
 WHERE {
     {
-        SELECT DISTINCT ?sequenceID ?source ?identifier ?start ?end ?source
+        SELECT DISTINCT ?sequenceID ?disprotIdentifier ?identifier ?start ?end
         WHERE {
-            {
-                graph idp:mobidb {
-                    ?protein schema:sameAs ?sequenceID ;
-                        schema:hasSequenceAnnotation ?annotationID ;
-                        schema:identifier ?identifier ;
-                        dc:title ?source .
-                    ?annotationID schema:sequenceLocation ?sequenceLocation .
-                    ?sequenceLocation schema:rangeStart ?s ;
-                        schema:rangeEnd ?e .
-                    BIND(xsd:integer(?s) AS ?start)
-                    BIND(xsd:integer(?e) AS ?end)
-                }
+            GRAPH idp:mobidb {
+                ?protein a schema:Protein ;
+                    schema:sameAs ?sequenceID ;
+                    schema:hasSequenceAnnotation ?annotationID ;
+                    schema:identifier ?id .
+                ?annotationID schema:sequenceLocation ?sequenceLocation .
+                ?sequenceLocation schema:rangeStart ?s ;
+                    schema:rangeEnd ?e .
+                BIND(URI(?id) as ?identifier)
+                BIND(xsd:integer(?s) AS ?start)
+                BIND(xsd:integer(?e) AS ?end)
             }
-            {
-                SELECT ?disprotSeq ?disprotStart ?disprotEnd
-                WHERE {
-                    graph idp:disprot {
-                        ?protein schema:sameAs ?disprotSeq ;
-                            schema:hasSequenceAnnotation ?annotationID ;
-                            schema:identifier ?identifier .
-                        ?annotationID schema:sequenceLocation ?sequenceLocation .
-                        ?sequenceLocation schema:rangeStart ?s ;
-                            schema:rangeEnd ?e .
-                        BIND(xsd:integer(?s) AS ?disprotStart)
-                        BIND(xsd:integer(?e) AS ?disprotEnd)
-                    }
-                }
+            GRAPH idp:disprot {
+                ?x schema:sameAs ?sequenceID ;
+                    schema:hasSequenceAnnotation ?disprotAnnotationID ;
+                    schema:identifier ?dID .
+                ?disprotAnnotationID schema:sequenceLocation ?disprotSequenceLocation .
+                ?disprotSequenceLocation schema:rangeStart ?dS ;
+                    schema:rangeEnd ?dE .
+                ?disprotAnnotationID schema:additionalProperty/schema:value/schema:termCode ?term .
+                FILTER (?term = "IDPO:00076")
+                BIND(URI(?dID) as ?disprotIdentifier)
+                BIND(xsd:integer(?dS) AS ?disprotStart)
+                BIND(xsd:integer(?dE) AS ?disprotEnd)
             }
-            FILTER (!(?sequenceID = ?disprotSeq && ?start >= ?disprotStart && ?end <= ?disprotEnd))
+            FILTER (?disprotStart >= ?start && ?disprotEnd <= ?end)
         }
+        ORDER BY ?sequenceID ?start ?end
         offset 0
-        limit 300
+        LIMIT 30
     }
     SERVICE <https://sparql.uniprot.org/sparql> {
         ?sequenceID a up:Protein ;
@@ -54,12 +52,18 @@ WHERE {
         BIND(STRAFTER(?chainsPlusRange, '=') AS ?range)
         BIND(xsd:integer(STRBEFORE(?range, '-')) AS ?rangeStart)
         BIND(xsd:integer(STRAFTER(?range, '-')) AS ?rangeEnd)
-        FILTER (?start >= xsd:integer(?rangeStart) && ?start <= xsd:integer(?rangeEnd) ||
+        BIND(REPLACE(STR(?sequenceID), "(^.+/)", "") AS ?sequenceIDstripped)
+        FILTER (
+            REGEX(STR(?chainSm), ?sequenceIDstripped) &&
+            (
+                ?start >= xsd:integer(?rangeStart) && ?start <= xsd:integer(?rangeEnd) ||
                 ?end >= xsd:integer(?rangeStart) && ?end <= xsd:integer(?rangeEnd) ||
                 ?start < xsd:integer(?rangeStart) && ?end > xsd:integer(?rangeEnd)
+            )
         )
         BIND(REPLACE(STR(?pdb), "(^.+/)", "") AS ?pdbId)
         BIND(concat(?pdbId, '_', ?chain, ' ', ?rangeStart, '-', ?rangeEnd) AS ?pdbInfo)
     }
 }
-GROUP BY ?sequenceID ?source ?identifier ?start ?end
+GROUP BY ?sequenceID ?identifier ?disprotIdentifier ?start ?end ?pdbInfo
+ORDER BY ?sequenceID ?start ?end
