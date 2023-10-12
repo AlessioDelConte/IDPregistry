@@ -1,9 +1,7 @@
 # For each protein, check it's presence in the available dbs
-
 PREFIX schema: <https://schema.org/>
+PREFIX idp: <https://idpcentral.org/registry/>
 
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX bio: <https://bioschemas.org/crawl/v1/>
 SELECT ?proteinId (MAX(?mobidb) as ?mobi) (MAX(?ped) as ?ped) (MAX(?disprot) as ?disprot)
 WHERE {
     {
@@ -12,16 +10,16 @@ WHERE {
             GRAPH ?g {
                 ?x schema:sameAs ?proteinId .
             }
-            BIND((?g = <bio:ped>) AS ?ped)
-            BIND((?g = <bio:disprot>) AS ?disprot)
-            BIND((?g = <bio:mobidb>) AS ?mobidb)
-            
+            BIND((?g = idp:ped) AS ?ped)
+            BIND((?g = idp:disprot) AS ?disprot)
+            BIND((?g = idp:mobidb) AS ?mobidb)
+
             {
                 SELECT DISTINCT ?proteinId
                 WHERE {
                     ?protein a schema:Protein ;
-                             schema:sameAs ?proteinId .
-                }  
+                        schema:sameAs ?proteinId .
+                }
             }
         }
     }

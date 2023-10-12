@@ -1,15 +1,10 @@
-#+ summary: Number of proteins
-#+ description: Retrieve the number of distinct items typed as a schema:Protein
-#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
-#+ tags:
-#+   - Protein
-
 PREFIX schema: <https://schema.org/>
-PREFIX pav: <http://purl.org/pav/>
-SELECT (COUNT(DISTINCT ?s) AS ?Proteins)
+
+SELECT (COUNT(DISTINCT ?x) AS ?Proteins)
 WHERE {
     GRAPH ?g {
-        ?s a schema:Protein
+        ?s a schema:Protein ;
+            schema:sameAs ?x .
     }
 }
 LIMIT 10
