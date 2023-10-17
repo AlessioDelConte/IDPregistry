@@ -66,6 +66,17 @@ If you want to import the pre-saved data into the created volumes, you can use t
 ./docker-volume-snapshot.sh restore /projects/volumes_dump/Virtuoso.tar.gz Virtuoso
 ```
 
+#### Import to a remote volume without copying the file to the remote machine
+
+```bash
+pv <dump>.tar.gz | docker run --rm -v <volume name>:<dest in docker> -i busybox tar xzf - -C <dest in docker>
+```
+
+#### Export from a remote volume without copying the file to the local machine
+```bash
+docker run --rm -v <volume name>:<dest in docker> -i busybox tar -czvf - -C <dest in docker> . > <dump>.tar.gz
+```
+
 ### Import triples into the triplestores
 
 #### GraphDB

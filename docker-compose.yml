@@ -16,6 +16,7 @@ services:
       - -Dgraphdb.workbench.importDirectory=/opt/graphdb/home/graphdb-import
       - -Dhealth.max.query.time.seconds=60
       - -Dreuse.vars.in.subselects=true
+      - -Dgraphdb.external-url=https://kg.biocomputingup.it/graphdb
     volumes:
       - GraphDB:/opt/graphdb/home
   virtuoso:
