@@ -69,12 +69,12 @@ If you want to import the pre-saved data into the created volumes, you can use t
 #### Import to a remote volume without copying the file to the remote machine
 
 ```bash
-pv <dump>.tar.gz | docker run --rm -v <volume name>:<dest in docker> -i busybox tar xzf - -C <dest in docker>
+pv <dump>.tar.gz | docker run --rm -v <volume name>:/destination -i busybox tar xzf - -C /destination
 ```
 
 #### Export from a remote volume without copying the file to the local machine
 ```bash
-docker run --rm -v <volume name>:<dest in docker> -i busybox tar -czvf - -C <dest in docker> . > <dump>.tar.gz
+docker run --rm -v <volume name>:/dest -i busybox tar -czvf - -C /dest . > <dump>.tar.gz
 ```
 
 ### Import triples into the triplestores

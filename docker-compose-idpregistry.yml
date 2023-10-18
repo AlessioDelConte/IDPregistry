@@ -1,8 +1,8 @@
 version: "3.5"
-name: idp-kg
+name: idpregistry-kg
 services:
   graphdb:
-    container_name: graphdb
+    container_name: idpregistry-graphdb
     image: ontotext/graphdb:10.3.3
     ports:
       - "7201:7200"
@@ -16,11 +16,12 @@ services:
       - -Dgraphdb.workbench.importDirectory=/opt/graphdb/home/graphdb-import
       - -Dhealth.max.query.time.seconds=60
       - -Dreuse.vars.in.subselects=true
-      - -Dgraphdb.external-url=https://kg.biocomputingup.it/graphdb
+      - -Dgraphdb.external-url=https://registry.idpcentral.org/graphdb
     volumes:
-      - GraphDB:/opt/graphdb/home
+      - idpregistry-graphdb:/opt/graphdb/home
+
   virtuoso:
-    container_name: virtuoso
+    container_name: idpregistry-virtuoso
     image: tenforce/virtuoso:latest
     ports:
       - "8890:8890"
@@ -31,12 +32,12 @@ services:
       DEFAULT_GRAPH: "https://idpcentral.org/registry/"
       DBA_PASSWORD: "dba"
     volumes:
-      - Virtuoso:/data
+      - idpregistry-virtuoso:/data
 
 volumes:
-  GraphDB:
+  idpregistry-graphdb:
     external: true
-    name: GraphDB
-  Virtuoso:
+    name: idpregistry-graphdb
+  idpregistry-virtuoso:
     external: true
-    name: Virtuoso
+    name: idpregistry-virtuoso
