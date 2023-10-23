@@ -30,13 +30,13 @@ on startup.
 **GraphDB** volume:
 
 ```bash
-docker volume create -d local GraphDB
+docker volume create -d local kg-graphdb
 ```
 
 **Virtuoso** volume:
 
 ```bash
-docker volume create -d local Virtuoso
+docker volume create -d local kg-virtuoso
 ```
 
 ### Use docker-compose to start the containers
@@ -45,25 +45,25 @@ This should download the two remote images (graphdb and virtuoso) and start the 
 Configuration options can be passed to the containers from the docker-compose.yml file.
 
 ```bash
-docker compose -f docker-compose.yml -p idp-kg up -d
+docker compose -f docker-compose-kg.yml -p idp-kg up -d
 ```
 
 #### Show logs
 
 ```bash
-docker logs -f graphdb    # For a single container
-docker compose logs -f graphdb virtuoso   # For all containers
+docker logs -f kg-graphdb    # For a single container
+docker compose logs -f docker-compose-kg.yml logs -f # For all containers
 ```
 
 ### Import pre-saved data into the volumes 
 If you want to import the pre-saved data into the created volumes, you can use the following commands:
 
 ```bash
-./docker-volume-snapshot.sh restore /projects/volumes_dump/GraphDB.tar.gz GraphDB
+./docker-volume-snapshot.sh restore /projects/volumes_dump/GraphDB.tar.gz kg-graphdb
 ```
 
 ```bash
-./docker-volume-snapshot.sh restore /projects/volumes_dump/Virtuoso.tar.gz Virtuoso
+./docker-volume-snapshot.sh restore /projects/volumes_dump/Virtuoso.tar.gz kg-virtuoso
 ```
 
 #### Import to a remote volume without copying the file to the remote machine
@@ -103,11 +103,10 @@ docker run --rm -v <volume name>:/dest -i busybox tar -czvf - -C /dest . > <dump
 * Now if you go to the `Linked Data` -> `Graphs` -> `Graphs` you should see the imported graphs
 
 ### Export volume data as a tar.gz file
-
 ```bash
-./docker-volume-snapshot.sh create GraphDB GraphDB.tar.gz 
+./docker-volume-snapshot.sh create kg-graphdb GraphDB.tar.gz 
 ```
 
 ```bash
-./docker-volume-snapshot.sh create Virtuoso Virtuoso.tar.gz 
+./docker-volume-snapshot.sh create kg-virtuoso Virtuoso.tar.gz 
 ```
