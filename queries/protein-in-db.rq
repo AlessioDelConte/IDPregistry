@@ -2,26 +2,26 @@
 PREFIX schema: <https://schema.org/>
 PREFIX idp: <https://idpcentral.org/registry/>
 
-SELECT ?proteinId (MAX(?mobidb) as ?mobi) (MAX(?ped) as ?ped) (MAX(?disprot) as ?disprot)
+SELECT ?UniProtID (MAX(?mobidb) as ?MobiDB) (MAX(?ped) as ?PED) (MAX(?disprot) as ?Disprot)
 WHERE {
     {
-        SELECT ?proteinId ?mobidb ?ped ?disprot
+        SELECT ?UniProtID ?mobidb ?ped ?disprot
         WHERE {
             GRAPH ?g {
-                ?x schema:sameAs ?proteinId .
+                ?x schema:sameAs ?UniProtID .
             }
             BIND((?g = idp:ped) AS ?ped)
             BIND((?g = idp:disprot) AS ?disprot)
             BIND((?g = idp:mobidb) AS ?mobidb)
 
             {
-                SELECT DISTINCT ?proteinId
+                SELECT DISTINCT ?UniProtID
                 WHERE {
                     ?protein a schema:Protein ;
-                        schema:sameAs ?proteinId .
+                        schema:sameAs ?UniProtID .
                 }
             }
         }
     }
 }
-GROUP BY ?proteinId
+GROUP BY ?UniProtID

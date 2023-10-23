@@ -39,7 +39,7 @@ WHERE {
         }
         ORDER BY ?sequenceID ?start ?end
         offset 0
-        LIMIT 30
+        LIMIT 10
     }
     SERVICE <https://sparql.uniprot.org/sparql> {
         ?sequenceID a up:Protein ;

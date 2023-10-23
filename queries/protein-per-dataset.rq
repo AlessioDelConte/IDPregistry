@@ -1,11 +1,11 @@
 # Proteins per Dataset
 PREFIX schema: <https://schema.org/>
 
-SELECT ?graph (COUNT(DISTINCT ?uniprot) AS ?Proteins)
+SELECT ?graph (COUNT(DISTINCT ?UniProtID) AS ?Proteins)
 WHERE {
     GRAPH ?graph {
         ?s a schema:Protein ;
-            schema:sameAs ?uniprot .
+            schema:sameAs ?UniProtID .
     }
 }
 GROUP BY ?graph
